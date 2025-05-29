@@ -1,0 +1,40 @@
+.playlist {
+  background-color: rgb(40, 40, 40, 0.8);
+  padding: 1rem;
+  width: 45%;
+  border-radius: 8px;
+}
+
+.playlist input {
+  width: 80%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.playlist-save-button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #1db954;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.playlist-name {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.playlist-name:hover {
+  color: #1db954;
+}
+
+.playlist-name span{
+  font-size: 12px;
+  color: #646363;
+  margin-left: 5px;
+}
